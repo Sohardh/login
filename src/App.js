@@ -7,28 +7,28 @@ import './App.css';
 /* App.jsx */
 class App extends React.Component { 
   render() {
+    
     return (
       <div className='form'>
-        <div className='form_logo'>
-          Lo<span>g</span>o
-        </div>
+      
         <div className='form_title'>
-          Log<span>I</span>n
+          <h1>Test</h1>
         </div>
         <form className='form_items'>
           <div className='form_inputs'>
             <input 
               type='text'
               required
+              placeholder="Username"
               />
-            <label>username or email</label>
           </div>
           <div className='form_inputs'>
             <input
               type='password'
               required
+              placeholder = "password"
               />
-            <label>password</label>
+            
           </div>
           <button className='form_button'>Log In</button>
         </form>
