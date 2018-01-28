@@ -1,28 +1,50 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+body {
+  color: pink;
+  background: #505;
+  font-family: forte;
 }
+input {color: inherit;}
+.form {
+  width: var(--form-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+    padding: 0px; 
+  }
 
-.App-title {
-  font-size: 1.5em;
-}
 
-.App-intro {
-  font-size: large;
-}
+  #us{background-color: transparent;}
+  #ps{background-color: transparent;}
+  .form_inputs{
+    border-bottom: 1px solid;
+      color: inherit; 
+     
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+  }
+
+
+  .form_button{
+     width: 100%;
+    height: 36px;
+    margin-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background: purple;
+    box-shadow:2px 2px 2px var(--primary-color-dark);
+  }
+ 
+ 
+
+a { color: inherit; } 
+.form_other {
+  font-color:#999;  
+  font-family: forte;
+  
+  }
+  

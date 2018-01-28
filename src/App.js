@@ -12,14 +12,16 @@ class App extends React.Component {
       <div className='form'>
       
         <div className='form_title'>
-          <h1>Test</h1>
+          <h1>Login</h1>
         </div>
-        <form className='form_items'>
+        <form className='form_items' >
           <div className='form_inputs'>
             <input 
               type='text'
               required
               placeholder="Username"
+              id="us"
+
               />
           </div>
           <div className='form_inputs'>
@@ -27,13 +29,14 @@ class App extends React.Component {
               type='password'
               required
               placeholder = "password"
+              id ="ps"
               />
             
           </div>
           <button className='form_button'>Log In</button>
         </form>
         <div className='form_other'>
-          <a href='#'>forgot password?</a>
+          <a href='#'>forgot password?</a><br />
           <a href='#'>Join Now</a>
         </div>
       </div>
@@ -55,4 +58,3 @@ class Main extends React.Component{
 
 
 export default App;
-
