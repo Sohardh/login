@@ -20,7 +20,7 @@ class App extends React.Component {
               type='text'
               required
               placeholder="Username"
-              id="us"
+              className="us"
 
               />
           </div>
@@ -28,8 +28,8 @@ class App extends React.Component {
             <input
               type='password'
               required
-              placeholder = "password"
-              id ="ps"
+              placeholder = "Password"
+              className ="us"
               />
             
           </div>

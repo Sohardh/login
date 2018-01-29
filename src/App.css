@@ -4,6 +4,10 @@ body {
   color: pink;
   background: #505;
   font-family: forte;
+  ;
+}
+.form_title{
+  font-size: 20px;
 }
 input {color: inherit;}
 .form {
@@ -16,16 +20,31 @@ input {color: inherit;}
   }
 
 
-  #us{background-color: transparent;}
-  #ps{background-color: transparent;}
+  .us{background-color: transparent;
+      width: 100%;
+      border:0px;
+      height: 50px;
+      font-size: 20px;
+      font-family: forte;
+    }
+  
+.us:focus{
+ 
+    color: white;
+    font-size: 20px;
+}
+  
+
   .form_inputs{
-    border-bottom: 1px solid;
+    border-bottom: 1.5px solid;
+
       color: inherit; 
-     
+      width: 200px;
+  height: 50px;
+  transition: width 2s, height 4s;
 
   }
-
-
+ 
   .form_button{
      width: 100%;
     height: 36px;
@@ -38,7 +57,12 @@ input {color: inherit;}
     background: purple;
     box-shadow:2px 2px 2px var(--primary-color-dark);
   }
- 
+  .form_button:hover {
+    background-color: #839; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
  
 
 a { color: inherit; } 
